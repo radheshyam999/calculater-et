@@ -1,0 +1,34 @@
+#changeValue{
+   -fx-background-color:red;
+
+
+
+}
+
+
+Button{
+
+  
+  
+  
+  -fx-font-size:15px;
+  -fx-padding:5px;
+  -fx-width:40px;
+  -fx-height:20px;
+   -fx-bottom: 0px;
+
+
+
+   
+  -fx-background-color:black; 
+  -fx-color: black; 
+  -fx-border: 2px solid #4CAF50;
+}
+
+Button:hover {
+  -fx-background-color: #4CAF50;
+  -fx-color: white;
+}
+
+   
+  
