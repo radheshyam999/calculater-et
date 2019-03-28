@@ -28,7 +28,9 @@ public class Controller { //  Contoraler class //
       }
 @FXML
       public void ProcessOperater(ActionEvent event){ //  //   acecssiing opertaor  nd working i= on  that //
-      
+         String  value = ((Button)event.getSource ()).getText ();
+         
+	    result.setText (result.getText ()+value);
 	
       }
 
